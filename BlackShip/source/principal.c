@@ -9,7 +9,7 @@
 #include "couleur.h"
 
 
-int main (int argc, char const *argv[]) {
+int main (int argc, char *argv[]) {
     
     #ifdef _WIN32
         printf(ROUGE"Ce programme n'est pas compatible avec les systèmes Windows\n");
