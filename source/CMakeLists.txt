@@ -31,10 +31,10 @@ target_link_libraries(solo PRIVATE jeu)
 
 # Création exécutable
 
-add_executable(Blackship principal.c)
-target_include_directories(Blackship PUBLIC ${CMAKE_SOURCE_DIR}/entete)
-target_link_libraries(Blackship PRIVATE jeu)
-target_link_libraries(Blackship PRIVATE client)
-target_link_libraries(Blackship PRIVATE serveur)
-target_link_libraries(Blackship PRIVATE solo)
-target_link_libraries(Blackship PRIVATE debugc)
+add_executable(blackship principal.c)
+target_include_directories(blackship PUBLIC ${CMAKE_SOURCE_DIR}/entete)
+target_link_libraries(blackship PRIVATE jeu)
+target_link_libraries(blackship PRIVATE client)
+target_link_libraries(blackship PRIVATE serveur)
+target_link_libraries(blackship PRIVATE solo)
+target_link_libraries(blackship PRIVATE debugc)
